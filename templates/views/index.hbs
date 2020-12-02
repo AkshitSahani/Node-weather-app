@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Weather</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  {{>header}}
+  {{>footer}}
+
+  {{!-- <form action="http://localhost:3000/weather" --}}
+
+  <form>
+    <label>location</label>
+    <input placeholder="Location" />
+    <button type="submit">Search</button>
+
+    <p id="location"></p>
+    <p id="forecast"></p>
+  </form>
+
+  <script src="./js/app.js"></script>
+</body>
+
+
+</html>
