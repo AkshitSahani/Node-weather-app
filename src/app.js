@@ -30,7 +30,7 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About",
-    name: "Stephanie Plummer",
+    name: "Akshit Sahani",
   });
 });
 
@@ -62,7 +62,7 @@ app.get("/products", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("Help", {
     title: "Help me.....",
-    name: "Shivika Sahani",
+    name: "Akshit Sahani",
   });
 });
 
